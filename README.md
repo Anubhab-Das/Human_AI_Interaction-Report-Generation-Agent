@@ -71,6 +71,11 @@ chain = build_router_graph()
 print(chain.get_graph().draw_mermaid())
 Copy the output and paste it into a Mermaid Live Editor for a graphical view.
 
+# SAMPLE OUTPUT:
+
+![Screenshot 2025-03-01 at 8 35 12 PM](https://github.com/user-attachments/assets/fd0de24d-acb6-4381-bfa4-cd238758520c)
+
+
 Additional Information
 
 Local LLM Integration:
