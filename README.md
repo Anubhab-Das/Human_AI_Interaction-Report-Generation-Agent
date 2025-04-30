@@ -14,6 +14,30 @@ Optionally, generate a final report summarizing the conversation.
 Local LLM Integration:
 The project leverages the local Ollama CLI to run the model without relying on an external REST endpoint.
 
+
+Project Overview:
+A report generation tool that analyzes conversations between humans and AI agents, summarizes insights, and outputs structured documents. Useful for chatbot evaluations, customer support audits, and training documentation.
+
+Key Features:
+
+Summarizes multi-turn conversations between user and AI.
+Classifies conversation stages (e.g., greeting, info retrieval, closure).
+Outputs structured text or documents for reporting purposes.
+Technologies Used:
+
+Languages: Python
+Frameworks: LangGraph
+AI Tools: Local LLMs or OpenAI/Gemini
+Deployment: Terminal/Notebook-based interface
+
+
+Workflow:
+
+User provides a transcript (chat log or message array).
+LangGraph routes the content through classifiers (e.g., stage detection) and summarizers.
+A structured report is generated detailing key interaction moments, resolutions, and follow-ups.
+The report can be exported or used as input for further documentation tools.
+
 ### Prerequisites
 
 Python 3.8 or later
